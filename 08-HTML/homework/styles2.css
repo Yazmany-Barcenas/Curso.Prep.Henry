@@ -1,0 +1,114 @@
+/** Globales **/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16 px **/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+
+
+/** Header **/
+
+.site-header {
+    background-color: #333333;
+    padding: 1rem 0 3rem;
+}
+.site-header.inicio {
+    background: url(https://i.imgur.com/tIInBY6.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-header h1 {
+    color: white;
+    padding-top: 3rem;
+    vertical-align: middle;
+}
+
+
+.contenedor {
+max-width: 120rem; /** = 1200 px **/
+text-align: center;
+}
+
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.encabezado {
+  color: #333333;
+  font-size: 3.8rem;
+  padding: 1rem 0 3rem;
+  text-align: center;
+}
+
+/** Parrafos **/ 
+
+.parrafos {
+    background-color:#3498DB;
+    font-size: 1.8rem;
+    padding: 1rem;
+    color: #ffffff;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.parrafos p {
+    text-align: left;
+}
+
+
+/** Foto **/
+
+.foto {
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
+
+/** Footer **/
+
+.site-footer {
+    background-color: #333333;
+    margin: 0;
+}
+.contenedor-footer {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+.copyright {
+    margin: 0;
+    color: #ffffff
+}
